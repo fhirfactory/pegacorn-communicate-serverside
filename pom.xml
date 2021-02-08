@@ -9,10 +9,10 @@
         <relativePath>../pegacorn</relativePath>
     </parent>
         
-    <artifactId>pegacorn-communicate</artifactId>
+    <artifactId>pegacorn-communicate-serverside</artifactId>
     <packaging>pom</packaging>
     
-    <name>Pegacorn :: Communicate</name>
+    <name>Pegacorn :: Communicate :: ServerSide </name>
     <description>The integation adpater (for converting FHIR-to-Matrix and Matrix-to-FHIR evets</description>
 
     <properties>
@@ -20,6 +20,7 @@
     </properties>
     
     <modules>
-        <module>../pegacorn-communicate-fhirbridge</module>
+        <module>../pegacorn-communicate-serverside-fhirbridge</module>
+	<module>../pegacorn-communicate-serverside-roomserver/pegacorn-communicate-serverside-roomserver</module>
     </modules>
 </project>
