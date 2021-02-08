@@ -20,6 +20,6 @@
     </properties>
     
     <modules>
-        <module>../pegacorn-communicate-iris</module>
+        <module>../pegacorn-communicate-fhirbridge</module>
     </modules>
 </project>
